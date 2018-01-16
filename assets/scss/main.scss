@@ -600,6 +600,15 @@ figure.fit {
     padding: 30px;
   }
 }
+
+.sobre-boxes .atividades { background: #FFF; }
+.sobre-boxes .atividades h2{ font-family: $Bad;font-weight: 100; }
+.sobre-boxes .atividades .imagematividade { background-image: none; height: 470px; z-index: 0; background-attachment: scroll; background-size: auto; background-size: cover; }
+.sobre-boxes .atividades .descricaoatividade { padding: 85px; height: 470px; }
+.sobre-boxes .atividades .box-atividade:nth-child(even) .imgdest { float: right; }
+.sobre-boxes .atividades .box-atividade:nth-child(even) .descricaoatividade { background: $Rosa; }
+.sobre-boxes .atividades .box-atividade:nth-child(even) .descricaoatividade p, .sobre-boxes .atividades .box-atividade:nth-child(even) .descricaoatividade h2 { color: white; }
+.no-padding { padding: 0; }
 /******************** PRE FOOTER ********************/
 #pre-footer{
   position: relative;
@@ -659,7 +668,35 @@ footer{
     color: $white;
   }
 }
+/******************** SINGLE ********************/
 
+
+.top-banner-serv { 
+    height: 100%; height: 57vh; background-size: cover; background-attachment: fixed; position: relative;
+    &:before { content: ''; background: rgba(0, 13, 33, 0.4); position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .caption { 
+      color: #fff; position: fixed; width: 75%; top: 200px; left: 50%; margin-left: -37.5%; 
+      .banner-caption { font-size: 48px; font-weight: 300; margin-bottom: 75px; }
+    }
+}
+
+.single-page{
+  background: #F6F6F6;
+  position: relative;
+  text-align: center;
+  padding-bottom: 40px;
+  h2{font-family: $Bad;font-weight: 100; }
+  figure.fit{
+    padding-bottom: 70%;
+    &:hover{
+      .service-hover{
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 60%;
+      }
+    }
+  }
+}  
 
 @media (min-width: 768px) {
 

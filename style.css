@@ -212,6 +212,22 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 
 #instagram .header { background: #f6cdd9; padding: 30px; }
 
+.sobre-boxes .atividades { background: #FFF; }
+
+.sobre-boxes .atividades h2 { font-family: "Bad Script", cursive; font-weight: 100; }
+
+.sobre-boxes .atividades .imagematividade { background-image: none; height: 470px; z-index: 0; background-attachment: scroll; background-size: auto; background-size: cover; }
+
+.sobre-boxes .atividades .descricaoatividade { padding: 85px; height: 470px; }
+
+.sobre-boxes .atividades .box-atividade:nth-child(even) .imgdest { float: right; }
+
+.sobre-boxes .atividades .box-atividade:nth-child(even) .descricaoatividade { background: #f6cdd9; }
+
+.sobre-boxes .atividades .box-atividade:nth-child(even) .descricaoatividade p, .sobre-boxes .atividades .box-atividade:nth-child(even) .descricaoatividade h2 { color: white; }
+
+.no-padding { padding: 0; }
+
 /******************** PRE FOOTER ********************/
 #pre-footer { position: relative; background: url(assets/img/fundo.jpg) no-repeat; background-size: cover; text-align: center; }
 
@@ -238,6 +254,23 @@ figure.fit { background-repeat: no-repeat; background-position: center center; b
 footer { background-color: #73c4dd; padding: 15px; position: relative; }
 
 footer p { text-align: center; color: #fff; }
+
+/******************** SINGLE ********************/
+.top-banner-serv { height: 100%; height: 57vh; background-size: cover; background-attachment: fixed; position: relative; }
+
+.top-banner-serv:before { content: ''; background: rgba(0, 13, 33, 0.4); position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.top-banner-serv .caption { color: #fff; position: fixed; width: 75%; top: 200px; left: 50%; margin-left: -37.5%; }
+
+.top-banner-serv .caption .banner-caption { font-size: 48px; font-weight: 300; margin-bottom: 75px; }
+
+.single-page { background: #F6F6F6; position: relative; text-align: center; padding-bottom: 40px; }
+
+.single-page h2 { font-family: "Bad Script", cursive; font-weight: 100; }
+
+.single-page figure.fit { padding-bottom: 70%; }
+
+.single-page figure.fit:hover .service-hover { padding-left: 30px; padding-right: 30px; width: 60%; }
 
 @media (min-width: 768px) { #header.top-fixed { box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1); background: rgba(134, 199, 226, 0.7); border-bottom: none; }
   #header.top-fixed .navbar-brand { padding: 15px 0; }
