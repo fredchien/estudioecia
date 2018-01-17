@@ -321,7 +321,7 @@ footer p { text-align: center; color: #fff; }
   #instagram h2 { font-size: 48px; }
   #pre-footer h3 { margin-top: 20px; }
   #parceiros-home figure.fit { padding-bottom: 50%; width: 50%; margin: 0px auto; }
-  .sobre-boxes .atividades .descricaoatividade { height: auto; } }
+  .sobre-boxes .atividades .descricaoatividade { height: auto; padding: 45px; } }
 
 @media (min-width: 768px) and (max-width: 991px) { /***** HEADER *****/
   #header .navbar-brand { padding: 25px 0; }
