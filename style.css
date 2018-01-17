@@ -272,6 +272,18 @@ footer p { text-align: center; color: #fff; }
 
 .single-page figure.fit:hover .service-hover { padding-left: 30px; padding-right: 30px; width: 60%; }
 
+.single-page iframe { margin-top: 40px; }
+
+.info { text-align: left; margin-top: 40px; }
+
+.formulario { margin-top: 40px; }
+
+.formulario input, .formulario textarea { border-radius: 0; }
+
+.formulario .see-more { padding: 10px; top: 10px; position: relative; border: none; background: #f6cdd9; width: 100%; color: #fff; }
+
+.formulario .see-more:hover { background: #73c4dd; }
+
 @media (min-width: 768px) { #header.top-fixed { box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1); background: rgba(134, 199, 226, 0.7); border-bottom: none; }
   #header.top-fixed .navbar-brand { padding: 15px 0; }
   #header.top-fixed .navbar-brand img { width: 60%; } }
@@ -308,7 +320,8 @@ footer p { text-align: center; color: #fff; }
   #instagram img { max-width: 100%; height: auto; }
   #instagram h2 { font-size: 48px; }
   #pre-footer h3 { margin-top: 20px; }
-  #parceiros-home figure.fit { padding-bottom: 50%; width: 50%; margin: 0px auto; } }
+  #parceiros-home figure.fit { padding-bottom: 50%; width: 50%; margin: 0px auto; }
+  .sobre-boxes .atividades .descricaoatividade { height: auto; } }
 
 @media (min-width: 768px) and (max-width: 991px) { /***** HEADER *****/
   #header .navbar-brand { padding: 25px 0; }

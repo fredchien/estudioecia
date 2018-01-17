@@ -696,7 +696,33 @@ footer{
       }
     }
   }
-}  
+  iframe{
+    margin-top: 40px;
+  }
+} 
+.info{
+  text-align: left;
+  margin-top: 40px;
+}
+.formulario{
+  margin-top: 40px;
+  input,textarea{
+    border-radius: 0;
+  }
+  .see-more {
+    padding: 10px;
+    top: 10px;
+    position: relative;
+    border: none;
+    background: #f6cdd9;
+    width: 100%;
+    color: #fff;
+    &:hover{
+      background: #73c4dd;
+    }
+  }
+}
+
 
 @media (min-width: 768px) {
 
@@ -835,6 +861,8 @@ footer{
     #instagram h2{font-size: 48px;}
     #pre-footer h3{margin-top: 20px;}
     #parceiros-home figure.fit{padding-bottom: 50%;width: 50%;margin: 0px auto;}
+
+    .sobre-boxes .atividades .descricaoatividade{height: auto;}
 }
 
 // SM
